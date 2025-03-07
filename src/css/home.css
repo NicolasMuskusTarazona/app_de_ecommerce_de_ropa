@@ -4,3 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header h1{
+    position: relative;
+    top: 40px;
+    left: 30px;
+    font-family: "EncodeSans-Regular";
+    font-weight: 100;
+    font-size: 3vw;
+    color: var(--color-2);
+}
+
+header p{
+    position: relative;
+    top: 45px;
+    left: 30px;
+    font-family: "EncodeSans-Bold";
+    font-weight: 100;
+    font-size: 5vw;
+    color: var(--color-5);
+}
