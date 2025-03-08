@@ -37,6 +37,10 @@ header p{
     border-radius: 50px;
 }
 
+::placeholder{
+    color: var(--color-7);
+}
+
 .user_search{
     display: flex;
 }
@@ -51,13 +55,14 @@ header p{
 .search{
     background-image: url(../storage/img/home/icon_search.png);
     background-repeat: no-repeat;
-    background-position: 20px 8px;
-    background-color: var(--color-4);
-    padding-left: 50px;
+    background-position: 18px 8.5px;
+    background-size: 18px;
+    padding-left: 45px;
     position: relative;
     width: 250px;
     height: 40px;
-    border-color: var(--color-2);
+    color: var(--color-7);
+    border-color: var(--color-7);
     border-radius: 10px;
     font-family: "EncodeSans-Regular";
     font-size: 15px;
