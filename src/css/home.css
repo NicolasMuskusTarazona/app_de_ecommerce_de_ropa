@@ -6,9 +6,9 @@
 }
 
 header h1{
-    position: relative;
+    position: fixed;
     top: 40px;
-    left: 30px;
+    left: 20px;
     font-family: "EncodeSans-Regular";
     font-weight: 100;
     font-size: 3vw;
@@ -16,9 +16,9 @@ header h1{
 }
 
 header p{
-    position: relative;
-    top: 45px;
-    left: 30px;
+    position: fixed;
+    top: 55px;
+    left: 20px;
     font-family: "EncodeSans-Bold";
     font-weight: 100;
     font-size: 4vw;
@@ -32,7 +32,7 @@ header p{
 .user{
     position: relative;
     width: 40px;
-    left: 210px;
+    left: 320px;
     top: 27px;
     border-radius: 50px;
 }
@@ -43,12 +43,14 @@ header p{
 
 .user_search{
     display: flex;
+    position: relative;
+    justify-content: space-between;
 }
 
 .input_search{
     position: relative;
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 20px;
     border-radius: 10px;
 }
 
@@ -59,12 +61,47 @@ header p{
     background-size: 18px;
     padding-left: 45px;
     position: relative;
-    width: 250px;
+    width: 270px;
     height: 40px;
     color: var(--color-7);
-    border-color: var(--color-7);
+    border-width: 1px;
+    border-color:var(--color-3);
     border-radius: 10px;
     font-family: "EncodeSans-Regular";
     font-size: 15px;
 }
 
+header button{
+    position: relative;
+    left: 20px;
+    top: 1px;
+    background-color: var(--color-1);
+    width: 40px;
+    height: 42px;
+    border: none;
+    border-radius: 10px;
+}
+
+@media (max-width: 370px) {
+    .user{
+        left: 80%; 
+    }
+    .menu{
+        left: 7%;
+    }
+    .search{
+        width: 240px;
+    }
+}
+
+@media (min-width:400px){
+    .user{
+        left: 85%; 
+    }
+    .menu{
+        left: 8%;
+    }
+    .search{
+        width: 305px;
+    }
+}
