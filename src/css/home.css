@@ -36,3 +36,30 @@ header p{
     top: 27px;
     border-radius: 50px;
 }
+
+.user_search{
+    display: flex;
+}
+
+.input_search{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.search{
+    background-image: url(../storage/img/home/icon_search.png);
+    background-repeat: no-repeat;
+    background-position: 20px 8px;
+    background-color: var(--color-4);
+    padding-left: 50px;
+    position: relative;
+    width: 250px;
+    height: 40px;
+    border-color: var(--color-2);
+    border-radius: 10px;
+    font-family: "EncodeSans-Regular";
+    font-size: 15px;
+}
+
