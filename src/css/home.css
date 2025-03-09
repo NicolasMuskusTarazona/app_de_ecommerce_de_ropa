@@ -63,9 +63,9 @@ header p{
     position: relative;
     width: 270px;
     height: 50px;
-    color: var(--color-7);
+    color: var(--color-1);
     border-width: 1px;
-    border-color:var(--color-3);
+    border: 1px solid var(--color-8);
     border-radius: 10px;
     font-family: "EncodeSans-Regular";
     font-size: 15px;
@@ -138,16 +138,129 @@ header p{
 
 .model1{
     position: relative;
-    margin-top: 20px;
-    border-radius: 20px;
-    margin-left: -6px;
-    width: 200px;
+    top: 30px;
+    border-radius: 30px;
+    left: 20px;
+    width: 180px;
+    z-index: 100;
 }
 
 
+.heart1{
+    position: relative;
+    top: -150px;
+    border-radius: 30px;
+    left: -30px;
+    width: 28px;
+    z-index: 200;
+}
+
+.product1head{
+    position: relative;
+    color: var(--color-9);
+    font-size: 16px;
+    left: 22px;
+    top: 35px;
+    font-family: "EncodeSans-SemiBold";
+}
+
+.product1category{
+    position: relative;
+    color: var(--color-2);
+    font-size: 12px;
+    left: 22px;
+    top: 40px;
+    font-family: "EncodeSans-Regular";
+}
+
+.product1worth{
+    position: relative;
+    color: var(--color-1);
+    font-size: 16px;
+    left: 23px;
+    top: 50px;
+    font-family: "EncodeSans-SemiBold";
+}
+
+.product1vall{
+    position: relative;
+    color: var(--color-1);
+    font-size: 14px;
+    margin-left: 140px;
+    top: 6.5px;
+    font-family: "EncodeSans-Regular";
+}
+
+.star1{
+    position: relative;
+    left: 120px;
+    top: 30px;
+}
+
+.model2{
+    position: relative;
+    top: 30px;
+    border-radius: 30px;
+    left: 20px;
+    width: 180px;
+    z-index: 100;
+}
+
+
+.heart2{
+    position: relative;
+    top: -250px;
+    border-radius: 30px;
+    left: -30px;
+    width: 28px;
+    z-index: 200;
+}
+
+.product2head{
+    position: relative;
+    color: var(--color-9);
+    font-size: 16px;
+    left: 22px;
+    top: 35px;
+    font-family: "EncodeSans-SemiBold";
+}
+
+.product2category{
+    position: relative;
+    color: var(--color-2);
+    font-size: 12px;
+    left: 22px;
+    top: 40px;
+    font-family: "EncodeSans-Regular";
+}
+
+.product2worth{
+    position: relative;
+    color: var(--color-1);
+    font-size: 16px;
+    left: 23px;
+    top: 50px;
+    font-family: "EncodeSans-SemiBold";
+}
+
+.product2vall{
+    position: relative;
+    color: var(--color-1);
+    font-size: 14px;
+    margin-left: 140px;
+    top: 6.5px;
+    font-family: "EncodeSans-Regular";
+}
+
+.star2{
+    position: relative;
+    left: 120px;
+    top: 30px;
+}
+
 @media (max-width: 400px){
     .user{
-        left: 54%; 
+        left: 57%; 
     }
     .menu{
         left: 10px;
