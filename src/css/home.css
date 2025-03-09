@@ -6,7 +6,7 @@
 }
 
 header h1{
-    position: fixed;
+    position: relative;
     top: 40px;
     left: 20px;
     font-family: "EncodeSans-Regular";
@@ -16,8 +16,8 @@ header h1{
 }
 
 header p{
-    position: fixed;
-    top: 55px;
+    position: relative;
+    top: 40px;
     left: 20px;
     font-family: "EncodeSans-Bold";
     font-weight: 100;
@@ -32,8 +32,8 @@ header p{
 .user{
     position: relative;
     width: 40px;
-    left: 320px;
-    top: 27px;
+    left:190px;
+    top: 20px;
     border-radius: 50px;
 }
 
@@ -57,12 +57,12 @@ header p{
 .search{
     background-image: url(../storage/img/home/icon_search.png);
     background-repeat: no-repeat;
-    background-position: 18px 8.5px;
+    background-position: 18px 15px;
     background-size: 18px;
     padding-left: 45px;
     position: relative;
     width: 270px;
-    height: 40px;
+    height: 50px;
     color: var(--color-7);
     border-width: 1px;
     border-color:var(--color-3);
@@ -71,13 +71,13 @@ header p{
     font-size: 15px;
 }
 
-header button{
+.menu{
     position: relative;
-    left: 20px;
     top: 1px;
+    left: 10px;
     background-color: var(--color-1);
-    width: 40px;
-    height: 42px;
+    width: 50px;
+    height: 50px;
     border: none;
     border-radius: 10px;
 }
@@ -95,17 +95,17 @@ header button{
     padding-top: 7px;
     padding-left: 10px;
     border-radius:10px;
-    width: 100px;
+    width: 90px;
     height: 40px;
 }
 
 .category-item {
-    background:var(--color-4);
     padding: 10px;
     padding-top: 7px;
     padding-left: 10px;
     border-radius:10px;
-    width: 100px;
+    border: 1px solid var(--color-8);
+    width: 90px;
     height: 40px;
 }
 
@@ -123,6 +123,7 @@ header button{
 .category-link {
     text-decoration: none;
     color:var(--color-1);
+    border-color: var(--color-1);
     font-family: "EncodeSans-Medium";
     font-size: 11px;
     display: flex;
@@ -135,50 +136,66 @@ header button{
     height: 24px;
 }
 
+.model1{
+    position: relative;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: -6px;
+    width: 200px;
+}
 
-@media (max-width: 370px){
+
+@media (max-width: 400px){
     .user{
-        left: 80%; 
+        left: 54%; 
     }
     .menu{
-        left: 7%;
+        left: 10px;
     }
     .search{
-        width: 240px;
+        width: 280px;
     }
     .category {
         display: flex;
         list-style: none;
         gap: 5px;
         margin-top: 30px;
-        margin-left: 20px;
         font-size: 3vw;
     }
     .category-link1 {
-        text-decoration: none;
         color:var(--color-6);
         font-family: "EncodeSans-Medium";
         font-size: 3vw;
-        display: flex;
-        align-items: center;
-        padding-top: 5px;
-        gap: 5px;
     }
     .category-link {
-        text-decoration: none;
         color:var(--color-1);
         font-family: "EncodeSans-Medium";
-        font-size: 2.5vw;
-        display: flex;
-        align-items: center;
+        font-size: 3vw;
+    }
+    .category-item {
+        padding: 10px;
+        padding-top: 7px;
+        padding-left: 10px;
+        border-radius:10px;
+        border: 1px solid var(--color-8);
+        width: 90px;
+        height: 40px;
+    }
+    .category-item1 {
+        background:var(--color-1);
+        padding-top: 7px;
+        padding-left: 10px;
+        border-radius:10px;
+        width: 90px;
+        height: 40px;
     }
 }
-@media (min-width:400px){
+@media (min-width:420px){
     .user{
-        left: 85%; 
+        left: 57%; 
     }
     .menu{
-        left: 8%;
+        left: 6.5%;
     }
     .search{
         width: 305px;
