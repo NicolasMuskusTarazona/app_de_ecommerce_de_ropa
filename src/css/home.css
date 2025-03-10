@@ -620,6 +620,22 @@ header p{
         top:1px;
     }
 }
+/*------------------------------------------------------ Footer  -------------------------------------------------------------------*/
+.a {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    gap: 50px;
+    border-radius: 30px;
+    width: 100%;  
+    background-color: var(--color-1);
+    padding: 10px;
+    z-index: 1000;  
+}
+/*------------------------------------------------------ Celulares  -------------------------------------------------------------------*/
+
 @media (min-width:360px) and (max-width:370px){
     header h1{
         font-size: 16px;
