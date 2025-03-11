@@ -4,18 +4,135 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* --------------------------------------- HEADER -----------------------------------------*/
 
 header{
     display: flex;
-    gap: 60px;
+    gap: 100px;
     justify-self: center;
-    font-family: "EncodeSans-SemiBold";
-    font-size: 16px;
+    font-size: 10px;
     margin-top: 30px;
 }
+h1{
+    margin-top: 7px;
+    font-family: "EncodeSans-SemiBold";
+}
+/* --------------------------------------- MAIN -----------------------------------------*/
+.products{
+    display: flex;
+}
+.model1{
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+}
+.Category{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left: 20px;
+    color: var(--color-9);
+}
+.points{
+    margin-top: 40px;
+    margin-left: 190px;
+    width: 20px;
+    height: 20px;
+}
+.product{
+    font-family: "EncodeSans-Regular";
+    font-size: 10px;
+    color: var(--color-2);
+    margin-top: 65px;
+    margin-left: -132px;
+}
+.worth{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    margin-top: 90px;
+    margin-left: -30px;
+    color: var(--color-9);
+}
+.counter-container {
+    display: flex;
+    position: relative;
+    margin-left: 290px;
+    margin-top: -35px;
+    gap: 10px;
+}
 
+.button {
+    width: 25px;
+    height: 25px;
+    border: 2px solid var(--color-3);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color:var(--color-6);
+}
+
+.button:hover {
+    background-color:var(--color-2);
+}
+.number{
+    color: var(--color-2);
+    margin-top: 2px;
+}
+.count {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid var(--color-3);
+    border-radius: 5px;
+}
+.linea1{
+    border: 0;
+    border: 1px solid var(--color-4);
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 360px;
+}
+.product1{
+    font-family: "EncodeSans-Regular";
+    font-size: 10px;
+    color: var(--color-2);
+    margin-top: 65px;
+    margin-left: -80px;
+}
+.worth1{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    margin-top: 90px;
+    margin-left: -23px;
+}
+/* --------------------------------------- CELULARES -----------------------------------------*/
 @media (min-width:310px) and (max-width:359px) {   
     header{
-        gap: 40px;
+        gap: 75px;
+    }
+    .points{
+        margin-left: 160px;
+    }
+    .counter-container {
+        margin-left: 255px;
+    }
+    .linea1{
+        width: 330px;
+    }
+}
+@media (min-width:360px) and (max-width:375px) {   
+    header{
+        gap: 75px;
+    }
+    .points{
+        margin-left: 160px;
+    }
+    .counter-container {
+        margin-left: 255px;
     }
 }
