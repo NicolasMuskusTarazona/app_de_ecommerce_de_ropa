@@ -30,3 +30,8 @@
     font-family: "EncodeSans-SemiBold";
     src: url(../storage/font/Encode_Sans/static/EncodeSans-SemiBold.ttf);
 }
+
+@font-face {
+    font-family: "Tangerine-Bold";
+    src: url(../storage/font/Tangerine/Tangerine-Bold.ttf);
+}
