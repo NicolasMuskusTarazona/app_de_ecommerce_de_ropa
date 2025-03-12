@@ -4,3 +4,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-image: url(../storage/img/splash-creen/background.gif);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+a{
+    display: flex;
+    justify-self: center;
+    margin-top: 350px;
+    text-decoration: none;
+    color: var(--color-6);
+    font-size: 12.5vw;
+    font-family: "Tangerine-Bold";
+}
